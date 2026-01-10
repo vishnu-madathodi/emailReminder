@@ -1,0 +1,21 @@
+from mail_builder import create_template, find_mailID
+from outlook import generate_draft
+
+def main():
+    team_name = input("Enter the team name: ").strip()
+    #incident_id = input("Enter the incident id: ").strip()
+    #user_name = input("Enter the sender name: ").strip()
+
+    #create to and cc emails
+    to, cc = find_mailID(team_name)
+    cc_list = list()
+    cc_list.extend([cc,"pratap.chauhan@dxc.com", "poonam.rane@dxc.com"])
+
+    #create template
+    template = create_template(team_name,incident_id="789237823")
+
+    #generate outlook draft
+    generate_draft(to, cc_list, template)
+
+if __name__ == "__main__":
+    main()

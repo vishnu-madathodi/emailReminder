@@ -1,0 +1,1 @@
+Just a simple python code to auto generate reminders mails to be sent to teams for incident closure. 

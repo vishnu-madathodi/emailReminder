@@ -2,24 +2,22 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>P2 Incident Follow-up</title>
+  <title>P2 Incident: {{incident_id}}</title>
 </head>
 <body style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; color: #000;">
 
-<p>Hi <b>@{{TEAM_NAME}}</b>,</p>
+<p>Hi <b>@{{team_name}}</b>,</p>
 
 <p>
-Kindly check the below incident and confirm us back with the closure
-within SLA breach time.
+Kindly check the below incident and confirm us back with the closure within SLA breach time.
 </p>
 
-<p><b>SOC Incident Priority:</b> {{PRIORITY}}</p>
+<p>SOC incident: Priority P2</p>
 
-<p><b>Incident ID:</b> {{INCIDENT_ID}}</p>
+<p><b>Incident ID:</b> {{incident_id}}</p>
 
 <p style="background-color: #ffff99; padding: 8px; border-left: 4px solid #ffcc00;">
-<b>Note:</b> Close the incident as per SLA and confirm with the closure.  
-Kindly provide explanation / reason if incident got breached.
+<b>Note:</b> Close the incident as per SLA and confirm with the closure. Kindly provide explanation / reason if incident got breached.
 </p>
 
 <br>
@@ -27,9 +25,8 @@ Kindly provide explanation / reason if incident got breached.
 <p>Regards,</p>
 
 <p>
-<b>{{SENDER_NAME}}</b><br>
-{{SENDER_TEAM}}<br>
-{{SENDER_CONTACT}}
+<b>{{user_name}}</b><br><br>
+<span>DXC IT Security Team | 040 20205417 | 040 20205418</span>
 </p>
 
 </body>
