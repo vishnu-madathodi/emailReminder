@@ -12,10 +12,10 @@ def main():
     cc_list.extend([cc,"pratap.chauhan@dxc.com", "poonam.rane@dxc.com"])
 
     #create template
-    template = create_template(team_name,incident_id="789237823")
+    subject, template = create_template(team_name,incident_id="789237823")
 
     #generate outlook draft
-    generate_draft(to, cc_list, template)
+    generate_draft(to, cc_list, subject, template)
 
 if __name__ == "__main__":
     main()
