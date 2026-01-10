@@ -1,0 +1,163 @@
+{
+  "UNIX SUPPORT": {
+    "team_mail": "supportunix.dc@bankofbaroda.com",
+    "cc": {
+      "name": "Pankaj Gupta",
+      "dl_mail": "pankaj.gupta9@dxc.com"
+    }
+  },
+  "WINTEL SUPPORT": {
+    "team_mail": "supportwintel.dc@bankofbaroda.com",
+    "cc": {
+      "name": "Rohit Walavalkar",
+      "dl_mail": "rohit.walavalkar@dxc.com"
+    }
+  },
+  "Base24 Team": {
+    "team_mail": "base24.projectsteam@bankofbaroda.com",
+    "cc": {
+      "name": "Shivshankar Sadafule",
+      "dl_mail": "ssadafule4@dxc.com"
+    }
+  },
+  "DATABASE SUPPORT": {
+    "team_mail": "supportdbase.dc@bankofbaroda.com",
+    "cc": {
+      "name": "Shravan Kumar",
+      "dl_mail": "shravan.kumar@dxc.com"
+    }
+  },
+  "BIZTALK Support Team": {
+    "team_mail": "supportbiztalk.dc@bankofbaroda.com",
+    "cc": {
+      "name": "Srikanth Katam",
+      "dl_mail": "srikanth.katam4@dxc.com"
+    }
+  },
+  "Antivirus Support": {
+    "team_mail": "supportantivirus.hp@bankofbaroda.com",
+    "cc": {
+      "name": "Vedprakash Sharma",
+      "dl_mail": "vedprakash.sharma@dxc.com"
+    }
+  },
+  "QNG Support": {
+    "team_mail": "support.qng@bankofbaroda.com",
+    "cc": {
+      "name": "Sunil Devendra Gupta",
+      "dl_mail": "sunil.gupta7@dxc.com"
+    }
+  },
+  "BMC TOOL": {
+    "team_mail": "supporttools.hp@bankofbaroda.com",
+    "cc": {
+      "name": "E Selva Ganesh",
+      "dl_mail": "eselvaganesh@dxc.com"
+    }
+  },
+  "Tools Support": {
+    "team_mail": "supporttools.hp@bankofbaroda.com",
+    "cc": {
+      "name": "Vinay Sham Kadival",
+      "dl_mail": "vinay.k@kudzuinfotech.com"
+    }
+  },
+  "Storage Support": {
+    "team_mail": "storage.supportdatacenter@bankofbaroda.com",
+    "cc": {
+      "name": "Srinivasarao Vinnakota",
+      "dl_mail": "s.vinnakota@dxc.com"
+    }
+  },
+  "M&M Support": {
+    "team_mail": "mail.admin@bankofbaroda.com",
+    "cc": {
+      "name": "Rohit Walavalkar",
+      "dl_mail": "rohit.walavalkar@dxc.com"
+    }
+  },
+  "NETWORK TEAM": {
+    "team_mail": "l2noc.dc@bankofbaroda.com",
+    "cc": {
+      "name": "Raja Pratap Basa",
+      "dl_mail": "rajapratap.basa@dxc.com"
+    }
+  },
+  "Desktop Team": {
+    "team_mail": "it.desktop@bankofbaroda.com",
+    "cc": {
+      "name": "Nalini Kapadnis",
+      "dl_mail": "nalini.kapadnis2@dxc.com"
+    }
+  },
+  "SQL Database": {
+    "team_mail": "sqlsupport@bankofbaroda.com",
+    "cc": {
+      "name": "Shravan Kumar",
+      "dl_mail": "shravan.kumar@dxc.com"
+    }
+  },
+  "HP IT Security": {
+    "team_mail": "itsecurity.hp@bankofbaroda.com",
+    "cc": {
+      "name": "Vedprakash Sharma",
+      "dl_mail": "vedprakash.sharma@dxc.com"
+    }
+  },
+  "Global Treasury Support": {
+    "team_mail": "treasurysupport.dc@bankofbaroda.com",
+    "cc": {
+      "name": "Rahul Ramesh Pawar",
+      "dl_mail": "rahulramesh.pawar@dxc.com"
+    }
+  },
+  "Treasury Upgrade": {
+    "team_mail": "treasurysupport.dc@bankofbaroda.com",
+    "cc": {
+      "name": "Rahul Ramesh Pawar",
+      "dl_mail": "rahulramesh.pawar@dxc.com"
+    }
+  },
+  "DXC Project Team": {
+    "team_mail": "project.dxc@bankofbaroda.com",
+    "cc": {
+      "name": "Rohit Walavalkar",
+      "dl_mail": "rohit.walavalkar@dxc.com"
+    }
+  },
+  "Network Support": {
+    "team_mail": "l2noc.dc@bankofbaroda.com",
+    "cc": {
+      "name": "Shivshankar Sadafule",
+      "dl_mail": "ssadafule4@dxc.com"
+    }
+  },
+  "Network Infra Group": {
+    "team_mail": "l2noc.dc@bankofbaroda.com",
+    "cc": {
+      "name": "Raja Pratap Basa",
+      "dl_mail": "rajapratap.basa@dxc.com"
+    }
+  },
+  "CTS Support Team": {
+    "team_mail": "supportcts.dc@bankofbaroda.com",
+    "cc": {
+      "name": "Raja Pratap Basa",
+      "dl_mail": "rajapratap.basa@dxc.com"
+    }
+  },
+  "DXC Db Project": {
+    "team_mail": "supportdbase.dc@bankofbaroda.com",
+    "cc": {
+      "name": "Vedprakash Sharma",
+      "dl_mail": "vedprakash.sharma@dxc.com"
+    }
+  },
+  "EBANKING Support": {
+    "team_mail": "supportebanking@bankofbaroda.co.in",
+    "cc": {
+      "name": "Shravan Kumar",
+      "dl_mail": "shravan.kumar@dxc.com"
+    }
+  }
+}

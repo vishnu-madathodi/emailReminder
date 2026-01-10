@@ -1,0 +1,6 @@
+__pycache__/
+*.exe
+dist/
+build/
+.env
+logs/
