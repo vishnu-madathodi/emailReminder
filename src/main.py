@@ -3,7 +3,7 @@ from outlook import generate_draft
 
 def main():
     team_name = input("Enter the team name: ").strip()
-    #incident_id = input("Enter the incident id: ").strip()
+    incident_id = input("Enter the incident id: ").strip()
     #user_name = input("Enter the sender name: ").strip()
 
     #create to and cc emails
@@ -12,7 +12,7 @@ def main():
     cc_list.extend([cc,"pratap.chauhan@dxc.com", "poonam.rane@dxc.com"])
 
     #create template
-    subject, template = create_template(team_name,incident_id="789237823")
+    subject, template = create_template(team_name,incident_id)
 
     #generate outlook draft
     generate_draft(to, cc_list, subject, template)
