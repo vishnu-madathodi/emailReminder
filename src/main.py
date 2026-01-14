@@ -8,15 +8,23 @@ def main():
     #user_name = input("Enter the sender name: ").strip()
 
     #create to and cc emails
-    to, cc = find_mailID(team_name)
-    cc_list = list()
-    cc_list.extend([cc,"pratap.chauhan@dxc.com", "poonam.rane@dxc.com"])
+    try:
+        to, cc = find_mailID(team_name)
+        cc_list = list()
+        cc_list.extend([cc,"pratap.chauhan@dxc.com", "poonam.rane@dxc.com", "Security.admin@bankofbarod.co.in","security.operator@bankofbaroda.co.in"])
+    except Exception as e: 
+        logger.exception(f"Failed to find team and CC: {e}")
+        return False
 
     #create template
     subject, template = create_template(team_name,incident_id)
 
     #generate outlook draft
-    generate_draft(to, cc_list, subject, template)
+    try:
+        generate_draft(to, cc_list, subject, template)
+    except Exception as e:
+        logger.exception(f"Failed to draft mail: {e}")
+        return False
 
 if __name__ == "__main__":
     main()
