@@ -27,4 +27,8 @@ def main():
         return False
 
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    except Exception as e:
+        logger.exception(f"Application failed: {e}")
+        input("Press enter to close application")
