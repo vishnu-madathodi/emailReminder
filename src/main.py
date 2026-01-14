@@ -1,5 +1,6 @@
 from mail_builder import create_template, find_mailID
 from outlook import generate_draft
+from logger import logger
 
 def main():
     team_name = input("Enter the team name: ").strip()
