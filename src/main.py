@@ -1,4 +1,6 @@
-import msvcrt
+import pythoncom
+
+pythoncom.CoInitialize()
 
 from mail_builder import create_template, find_mailID
 from outlook import generate_draft
@@ -14,7 +16,7 @@ def main():
         try:
             to, cc = find_mailID(team_name)
             cc_list = list()
-            cc_list.extend([cc,"pratap.chauhan@dxc.com", "poonam.rane@dxc.com", "Security.admin@bankofbarod.co.in","security.operator@bankofbaroda.co.in"])
+            cc_list.extend([cc,"pratap.chauhan@dxc.com", "poonam.rane@dxc.com", "Security.admin@bankofbarod.co.in","security.operator@bankofbaroda.co.in", "reshma.tailor@dxc.com"])
         except Exception as e: 
             logger.exception(f"Failed to find team and CC: {e}")
             return False
@@ -28,12 +30,6 @@ def main():
         except Exception as e:
             logger.exception(f"Failed to draft mail: {e}")
             return False
-
-        #looping logic
-        if msvcrt.kbhit() and msvcrt.getch() == b'\x1b':
-            print("Esc pressed, exiting...")
-            exit()
-
 
 if __name__ == "__main__":
     try:
